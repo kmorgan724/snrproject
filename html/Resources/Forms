@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Special Needs Resource Project</title>
+      <link rel="stylesheet" type="text/css" href="css/normalize.css">
+      <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<header>
+  <a href="index.html">
+    <img src="http://www.snrproject.com/images/header/banner.gif" alt="Logo" width="1332" class="banner"></a>
+      <nav id="menu">
+        <ul><a href="index.html"></a>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="info.html">Information</a>
+            <ul>
+              <li><a href="IEP.html">IEP Information</a></li>
+              <li><a href="IDEA.html">Individuals With Disabilities Act</a></li>
+              <li><a href="adult.html">Transistion to Adulthood</a>
+                <ul>
+                  <li><a href="fourteen.html">Age 14 - 16</a></li>
+                  <li><a href="seventeen.html">Age 17 - 18</a></li>
+                  <li><a href="nineteen.html">Age 19 - 22</a></li>
+                  <li><a href="secondary.html">Secondary Education Options</a></li>
+                  <li><a href="housing.html">Future Housing Options</a></li>
+                </ul>
+              </li>
+            </ul> 
+           </li> 
+          <li><a href="resources.html">Resources</a>
+            <ul>
+              <li><a href="forms.html" class="selected">Forms</a></li>
+              <li><a href="medical.html">Medical Equipment</a></li>
+              <li><a href="home.html">Home Remodeling</a>
+                <ul>
+                  <li><a href="ramps.html">Ramps</a></li>
+                  <li><a href="bath.html">Bathrooms</a></li>
+                  <li><a href="new.html">New Construction</a></li>
+                </ul>
+              </li>
+            </ul> 
+          </li>
+          <li><a href="faq.html">FAQs</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+</header>
+  <div id="wrapper">
+    <section>
+
+<h1>Forms</h1>
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <a target="_top" href="..Resources/Forms/daily_medical_chart.pdf" title="Daily Medication Chart" alt="Daily Medication Cahrt">Daily Medication Chart</a>
+        </td>
+        <td>
+          <a target="_top" href="..Resources/Forms/FORM-BMH.pdf" title="Basic Medical History" alt="Basic Medical History">Basic Medical History</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a target="_top" href="..REsources/Forms/daily_progress_notes" title="Daily Progress Notes" alt="Daily Progress Notes">DAily Progress Notes</a>
+        </td>
+        <td>
+          <a target="_top" href="..Resources/Forms/FORM-FMH.pdf" title="Family Medical History" alt="Family Medical History">Family Medical History</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a target="_top" href="..Resources/Forms/emergency_contact.pdf" title="Emergency Contact Information" alt="Emergency Contact Information">Emergency Contact Information</a>
+        </td>
+        <td>
+          <a target="_top" href="..Resources/Forms/FORM-DPR.pdf" title="Development Progress Record" alt="Development Progress Record">Development Progress Record</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a target="_top" href="..Resources/Forms/emergency_medical.pdf" title="Emergency Medical History" alt="Emergency Medical History">Emergency Medical History</a>
+        </td>
+        <td>
+          <a target="_top" href="..REsources/Forms/FORM-PL.pdf" title="Procedure Log" alt="Procedure Log">Procedure Log</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a target="_top" href="..Resources/Forms/IEP_action_form-meeting_agenda.pdf" title="IEP Meeting Agenda" alt="IEP Meeting Agenda">IEP Meeting Agenda</a>
+        </td>
+        <td>
+          <a target="_top" href="..Resources/Forms/SNRP_FORM_CallForm.pdf" title="Call Form" alt="Call Form">Call Form</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a target="_top" href="..Resources/Forms/IEP_action_form_goal_sheet.pdf" title="IEP Goals Form" alt="IEP Goals Form">IEP Goals Form</a>
+        </td>
+        <td>
+          <a target="_top" href="..Resouces/Forms/SNRP_FORM_questions.pdf" title="SNRP Form Questions" alt="SNRP Form Questions">SNRP Form Questions</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a target="_top" href="..Resources/Forms/Daily_Care_Plan.pdf" title="Daily Care Plan" alt="Daily Care Plan">Daily Care Plan</a>
+        </td>
+        <td>
+          <a target="_top" href="..Resources/Forms/SNRP_Shopping_List.pdf" title="SNRP Shopping List" alt="SNRP Shopping List">SNRP Shopping List</a>
+        </td>
+      </tr>
+    </tbody>  
+  </table>
+
+   </section>
+    <footer>
+      <p> June 2004-June 2015 Special Needs Resouce Project<br>Technical Support provided by Katie Morgan</p>
+    </footer>
+  </div>
+    <script src="http://code.jquery.com/jequery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html> 

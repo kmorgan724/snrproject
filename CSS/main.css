@@ -33,9 +33,9 @@ banner {
 	font-weight:700;
 	font-size:15px;
 	line-height:32px;
-  margin: 0 17px;
+  	margin: 0 17px;
 	padding:0 75px;
-	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 #menu ul li
@@ -43,12 +43,12 @@ banner {
 	position:relative;
 	float:left;
 	margin:0;
-	padding:0
+	padding:0;
 }
 
 #menu ul li.selected
 {
-	background:#ddd
+	background:#ddd;
 }
 
 #menu ul li:hover
@@ -63,25 +63,25 @@ banner {
 	top:100%;
 	left:0;
 	background:#88a5e1;
-	padding:0
+	padding:0;
 }
 
 #menu ul ul li
 {
 	float:none;
-	width:200px
+	width:200px;
 }
 
 #menu ul ul a
 {
 	line-height:120%;
-	padding:10px 15px
+	padding:10px 15px;
 }
 
 #menu ul ul ul
 {
 	top:0;
-	left:100%
+	left:100%;
 }
 
 #menu ul li:hover > ul
@@ -89,40 +89,63 @@ banner {
 	display:block;
   color:black;
 }
-* body */
+/* body */
+body {
+	font-family: Arial, sans-serif, Helvetica;
+	font-size: 1.075em;
+}
+
 a {
 	text-decoration: none;
+	color: #ff6633;
+	font-family: PT Serif, Palatino, Georgia;
+	font-size: 18px;
+	text-align: center;
+  	padding:00px;
 }
+
 .image{
   margin-top:5px;
   margin-left:400px;
   width:120px;
 }
+
 #wrapper {
-max-width: 940px;
-margin: 0 auto;
-padding: 0 5%;
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
 }
-a {
-	color: #ff6633;
-}
-h1, h2, h3, h4 {
+
+h1, h2, h3, h4, h5, h6{
+	font-family:Georgia, Palatino, PT Serif;
 	color: #e86c19;
 	text-align: center;
 	font-size: 25px;
 }
 
 .click {
-	text-align: center;
-	margin-left: 375px;
-  padding:10px;
+	margin-left: 390px;
 }
 
 .click_past{
-  text-align:center;
   margin-left:300px;
-  padding:10px;
 }
+
+.Titles{
+	font-family: Palatino, PT Serif, Georgia;
+	font-size: 20px;
+	text-align: center;
+	color: #ff6633;
+}
+
+.Authors{
+	font-family: Palatino, PT Serif, Georgia;
+	font-size: 17px;
+	text-align: center;
+	color: #ff6633;
+}
+
+/* Media Queries*/
 
 @media (min-width: 320px) and (max-width: 568px) {
   #menu ul {
@@ -135,9 +158,15 @@ h1, h2, h3, h4 {
   display:none;
   }
 }
+
+/* new.html */
+.Titles {
+
+}
+
 /* site footer */
 footer {
-  padding:20px;
+  	padding:20px;
 	background-color: #fff;
 	color: #999;
 	text-align: center;

@@ -1,175 +1,125 @@
 /* header section */
 header {
-	border-color: #ff9999;
-  margin: 0px;
+  margin: 3px;
   padding: 0px;
 }
-banner {
-	text-align: center;
-	margin: 0;
-  padding: 0;
-}
+.banner {
+  margin: 1px;
+  border-radius: 20px;
+ }
+
 /* navigation */
-#menu
-{
-	margin-top:0px
+nav {
+	border-radius: 20px;
+}
+nav select {
+	display: none;
+}
+.nav.navbar-nav li a{
+	color: #fff;
+	font-family: Arial;
+	text-shadow: 2px 2px #9393af;
+}
+.nav.navbar-nav li a:hover {
+	background-color: #fff;
+	color: #88a5e1;
+	text-shadow:0.5px 0.5px #445270;
+	border-radius: 5px;
+}
+.nav.navbar-nav>.active>a,
+.nav.navbar-nav>.active>a:focus {
+	background-color: #00478f;
+	border-radius: 5px;
+}
+.container-fluid {
+	background-color: #88a5e1;
+	border-radius: 20px;
+}
+.navbar-inverse {
+	background-color: #88a5e1;
+	border-radius: 20px;
+	text-align: center;
+}
+.dropdown-menu {
+	background-color: #88a5e1;
+	border-radius: 20px;
+	color: #fff;
 }
 
-#menu ul
-{
-	list-style:none;
-	position:relative;
-	float:left;
-	margin:0;
-	padding:0;
-  background:#88a5e1;
-}
-
-#menu ul a
-{
-	display:block;
-	color:white;
-	text-decoration:none;
-	font-weight:700;
-	font-size:15px;
-	line-height:32px;
-  	margin: 0 17px;
-	padding:0 75px;
-	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-
-#menu ul li
-{
-	position:relative;
-	float:left;
-	margin:0;
-	padding:0;
-}
-
-#menu ul li.selected
-{
-	background:#ddd;
-}
-
-#menu ul li:hover
-{
-	background:#336cc1;
-}
-
-#menu ul ul
-{
-	display:none;
-	position:absolute;
-	top:100%;
-	left:0;
-	background:#88a5e1;
-	padding:0;
-}
-
-#menu ul ul li
-{
-	float:none;
-	width:200px;
-}
-
-#menu ul ul a
-{
-	line-height:120%;
-	padding:10px 15px;
-}
-
-#menu ul ul ul
-{
-	top:0;
-	left:100%;
-}
-
-#menu ul li:hover > ul
-{
-	display:block;
-  color:black;
-}
 /* body */
+
 body {
-	font-family: Arial, sans-serif, Helvetica;
-	font-size: 1.075em;
+  font-family: Arial, sans-serif, Helvetica;
+  font-size: 1.75em;
 }
-
 a {
-	text-decoration: none;
-	color: #ff6633;
-	font-family: PT Serif, Palatino, Georgia;
-	font-size: 18px;
-	text-align: center;
-  	padding:00px;
+  text-decoration: none;
+  color: #ff6633;
+  font-family: PT Serif, Palatino, Georgia;
+  font-size: 18px;
+  text-align: center;
+  padding:0;
 }
-
 .image{
-  margin-top:5px;
-  margin-left:400px;
-  width:120px;
+  float: left;
+  margin: 10px 10px;
+  height: 100%;
 }
-
 #wrapper {
-	max-width: 940px;
-	margin: 0 auto;
-	padding: 0 5%;
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
 }
-
-h1, h2, h3, h4, h5, h6{
-	font-family:Georgia, Palatino, PT Serif;
-	color: #e86c19;
-	text-align: center;
-	font-size: 25px;
+h1{
+  margin: 5%;
+  font-family: Georgia, Palatino, PT Serif;
+  color: #ff7519;
+  text-align: center;
+  text-shadow:1px 1px #9393af;
+  font-size: 32px;
 }
-
+h2, h3, h4, h5, h6{
+  margin: 3%;
+  font-family:Georgia, Palatino, PT Serif;
+  color: #ff7519;
+  text-align: center;
+  text-shadow:1px 1px #9393af;
+  font-size: 22px;
+}
 .click {
-	margin-left: 390px;
+  margin-left: 380px;
 }
-
 .click_past{
-  margin-left:300px;
+    margin-left:300px;
 }
-
 .Titles{
-	font-family: Palatino, PT Serif, Georgia;
-	font-size: 20px;
-	text-align: center;
-	color: #ff6633;
+  font-family: Palatino, PT Serif, Georgia;
+  font-size: 20px;
+  text-align: center;
+  color: #ff6633;
 }
-
 .Authors{
-	font-family: Palatino, PT Serif, Georgia;
-	font-size: 17px;
-	text-align: center;
-	color: #ff6633;
+  font-family: Palatino, PT Serif, Georgia;
+  font-size: 17px;
+  text-align: center;
+  color: #ff6633;
 }
 
 /* Media Queries*/
 
-@media (min-width: 320px) and (max-width: 568px) {
-  #menu ul {
-    display:none;
-  }
-}
-
-@media (min-width: 568px) {
-  #menu selcet, #menu button {
-  display:none;
-  }
-}
-
-/* new.html */
-.Titles {
-
+@media (max-width: 810px) {
+	nav ul {display: none;}
+	nav select {display: inline-block;}
 }
 
 /* site footer */
+
 footer {
-  	padding:20px;
-	background-color: #fff;
-	color: #999;
-	text-align: center;
+  margin: 10px;
+    padding:20px;
+  background-color: #fff;
+  color: #999;
+  text-align: center;
 }
 
 

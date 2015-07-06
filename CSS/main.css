@@ -1,7 +1,7 @@
 /* header section */
 header {
-  margin: 3px;
-  padding: 0px;
+  margin: 0 2%;
+  padding: 0 0 2% 0;
 }
 .banner {
   margin: 1px;
@@ -10,7 +10,7 @@ header {
 
 /* navigation */
 nav {
-	border-radius: 20px;
+	border-radius: 20px
 }
 nav select {
 	display: none;
@@ -51,6 +51,7 @@ nav select {
 body {
   font-family: Arial, sans-serif, Helvetica;
   font-size: 1.75em;
+
 }
 a {
   text-decoration: none;
@@ -62,16 +63,24 @@ a {
 }
 .image{
   float: left;
-  margin: 10px 10px;
+  margin: 0 10px;
   height: 100%;
+}
+.grad{
+  float: right;
+  width: 35%;
 }
 #wrapper {
   max-width: 940px;
-  margin: 0 auto;
-  padding: 0 5%;
+  margin: 0 5% 0 7%;
+}
+.IDEA {
+  height: 150px;
+  margin: 0 40%;
+  padding: 0 0 2%;
 }
 h1{
-  margin: 5%;
+  margin: 0 0 2% 0;
   font-family: Georgia, Palatino, PT Serif;
   color: #ff7519;
   text-align: center;
@@ -79,12 +88,21 @@ h1{
   font-size: 32px;
 }
 h2, h3, h4, h5, h6{
-  margin: 3%;
+  margin: 2%;
   font-family:Georgia, Palatino, PT Serif;
   color: #ff7519;
   text-align: center;
   text-shadow:1px 1px #9393af;
-  font-size: 22px;
+  font-size: 28px;
+}
+iframe {
+  margin:0 0 3% 20%;
+}
+.emphasis {
+  color: #ff7519;
+  font-family: Georgia, Palatino, PT Serif;
+  font-size: 18px;
+  text-shadow:1px 1px #9393af;
 }
 .click {
   margin-left: 380px;
@@ -104,7 +122,26 @@ h2, h3, h4, h5, h6{
   text-align: center;
   color: #ff6633;
 }
-
+table {
+  margin: 5% 20%;
+  color: #0000ff;
+}
+.IEP {
+  height: 200px;
+  margin: 0 37%;
+  padding: 0 0 2%;
+}
+.notebook{
+  float: right;
+  margin: 5% 0;
+  padding: 5% 2%;
+  width: 45%;
+}
+.forms {
+  color: #009900;
+  text-align: center;
+  margin: 5%;
+}
 /* Media Queries*/
 
 @media (max-width: 810px) {

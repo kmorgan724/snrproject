@@ -1,61 +1,90 @@
 <!DOCTYPE html>
-<html>
-  <body>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Special Needs Resource Project</title>
-      <link rel="stylesheet" type="text/css" href="css/normalize.css">
-      <link rel="stylesheet" type="text/css" href="css/main.css">
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="../../css/main.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
+ <body>
 <header>
   <a href="index.html">
-    <img src="http://www.snrproject.com/images/header/banner.gif" alt="Logo" width="1332" class="banner"></a>
-      <nav id="menu">
-        <ul><a href="index.html"></a>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="html/Information/info.html">Information</a>
-            <ul>
-              <li><a href="html/Information/IEP.html" class="selected">IEP Information</a></li>
-              <li><a href="html/Information/IDEA.html">Individuals With Disabilities Act</a></li>
-              <li><a href="html/Transition/adult.html">Transistion to Adulthood</a>
-                <ul>
-                  <li><a href="html/Transition/fourteen.html">Age 14 - 16</a></li>
-                  <li><a href="html/Transition/seventeen.html">Age 17 - 18</a></li>
-                  <li><a href="html/Transition/nineteen.html">Age 19 - 22</a></li>
-                  <li><a href="html/Transition/secondary.html">Secondary Education Options</a></li>
-                  <li><a href="html/Transition/housing.html">Future Housing Options</a></li>
-                </ul>
-              </li>
-            </ul> 
-           </li> 
-          <li><a href="html/Resources/resources.html">Resources</a>
-            <ul>
-              <li><a href="html/Resources/forms.html">Forms</a></li>
-              <li><a href="html/Resources/medical.html">Medical Equipment</a></li>
-              <li><a href="html/Resources/Home Options/home.html">Home Options and Remodeling</a>
-                <ul>
-                  <li><a href="html/Resources/Home Options/ramps.html">Ramps</a></li>
-                  <li><a href="html/Resources/Home Options/new.html">New Construction</a></li>
-                </ul>
-              </li>
-            </ul> 
-          </li>
-          <li><a href="html/faq.html">FAQs</a></li>
-          <li><a href="html/contact.html">Contact Us</a></li>
-        </ul>
-      </nav>
+    <img src="http://www.snrproject.com/images/header/banner.gif" alt="Logo" class="banner" width="100%"></a>
+
+<nav class="navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    </div>
+    <div>
+      <ul class="nav navbar-nav">
+        <li><a href="../../index.html">Home</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="html/Information.info.html">Information <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="info.html">Getting Started</a></li>
+            <li class="active"><a href="IEP.html">IEP Information</a></li>
+            <li><a href="IDEA.html">Individuals With Disabilities Act</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="html/Transition.adult.html">Transition to Adulthood <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+             <li><a href="../Transition/adult.html">When to Start</a></li>
+             <li><a href="../Transition/fourteen.html">Ages 14 - 16</a></li>
+             <li><a href="../Transition/seventeen.html">Ages 17 - 18</a></li>
+             <li><a href="../Transition/nineteen.html">Ages 19 - 22</a></li>
+             <li><a href="../Transition/housing.html">Future Housing Options</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="html/Resources/resources.html">Resources <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="../Resources/resources.html">Resource Link Policy</a></li>
+            <li><a href="../Resources/forms.html">Forms</a></li>
+            <li><a href="../Resources/medical.html">Medical Equipment</a></li>
+            <li><a href="../Resources/Home Options/ramps.html">Ramps</a></li>
+            <li><a href="../Resources/Home Options/new.html">New Construction</a></li>
+          </ul>
+        </li>
+        <li><a href="../faq.html">FAQs </a></li>
+        <li><a href="../contact.html">Contact Us</a></li>
+    </div>
+  </div>
+
+  <select> 
+    <option value="../../index.html">Home</option>
+    <option value="info.html">Getting Started</option>
+    <option value="IEP.html">IEP Information</option> 
+    <option value="IDEA.html">IDEA</option>
+    <option value="../Transition/adult.html">When to Start</option> 
+    <option value="../Transition/fourteen.html">Ages 14 - 16</option> 
+    <option value="../Transition/seventeen.html">Ages 17- 18</option> 
+    <option value="../Transition/nineteen.html">Ages 19 - 22</option> 
+    <option value="../Transition/housing.html">Housing Options</option> 
+    <option value="../Resources/resources.html">Resource Link Policy</option>
+    <option value="../Resources/forms.html">Forms</option> 
+    <option value="../Resources/medical.html">Medical Equipment</option>    
+    <option value="../Resources/Home Options/ramps.html">Ramps</option> 
+    <option value="../Resources/Home Options/new.html">New Construction</option> 
+    <option value="../faq.html">FAQs</option> 
+    <option value="../contact.html">Contact Us</option> 
+  </select> 
+</nav>
 </header>
+ 
+ <div id="wrapper">
+  <section>
 
-<div id="wrapper">
-    <section>
-
+<img src="../../Images/IEP.jpg" alt="IEP Meeting Puzzle Pieces" title="IEP Meeting Puzzle Pieces" class="IEP">
+      
 <h1>IEP Information</h1>
  
   <p>One of the most intimidating processes for a parent is the Individual Eduation Plan (IEP) meeting. This meeting should be a team effort by all persons providing services to your child with the focus being on providing a quality education.</p>
 
   <p>Federal law mandates that every child has equal access to a free and appropriate education regardless of physical/mental ability. This law is called the individuals with Disabilities Education Act (IDEA). The sub-sections which agencies are required by law to inform you of are found below. The IDEA is far more extensive than that which is covered here. The full legal text of the 2004 Updated IDEA with simplified explanations 
   can be foudn by visiting <a href="https://www.disability.gov" target="_top">www.disability.gov</a></p>
+
+<iframe width="530" height="320" src="https://www.youtube.com/embed/Pu4KnwNu1Rw?rel=0" frameborder="0" allowfullscreen></iframe>
 
 <h2>Keeping an IEP Notebook</h2>
 
@@ -85,6 +114,9 @@
       <li>Basic History and Diagnosis. Basic information will be helpful to the educational staff assisting you in setting up the IEP.</li>
       <li>Current photo. Sometimes matching a face to the name helps staff keep the Child first and foremost in their minds. It's much easier to think in "rea" terms when you can put a face with the name.</li>
       <li>Current IEP. This is the document that is being reviewd and adjusted. For first time parents, this is the document you will need to keep handy and constantly refer to.</li>
+
+    <img src="../../Images/notebook.jpg" alt="IEP Notebook" title="IEP Notebook" class="notebook">
+
       <li>Nursing Care Plan. For children requiring in cloassroom medical care. The parent and the shcool RN will draw up part of this document at the IEP meeting with pertinent detail handled afterwards.</li>
       <li>Doctor's Orders. Care items ordered by the child's physicialn. This section can include letters from the Dr. regarding care in the classroom, medications, therapies provided by school staff etc. Keep COPIES in the notebook and the originals in a hard file at home.</li>
       <li>Short-term goals. Goals the child's (if applicable) parents, and staff feel can be met in 3-6 months. (See "<a href="/course.html?classID=1&chapterID=5" title="Forms" alt="Forms">Forms Section</a>")"</li>
@@ -112,19 +144,19 @@
 
   <p>Obtain a copy of your School District's <u>Guide to the Individualized Education Plan</u>.  It is also recommended that you print a personal copy of the <u>Federal Guide to the Individualized Education Plan</u> to use for comparison.</p>
 
-  <p><strong>*Note:</strong> Not all School District publications are easily read and understood. Many are abbreviated and difficult to read. Bu referencing to a copy of the Federal IEP guide, you may be able to clear up misunderstandings and clarify any problem questions that may arise during the meeting.</p>
+  <p><strong class="emphasis">*Note:</strong> Not all School District publications are easily read and understood. Many are abbreviated and difficult to read. Bu referencing to a copy of the Federal IEP guide, you may be able to clear up misunderstandings and clarify any problem questions that may arise during the meeting.</p>
 
   <p><strong>CLICK TO FIND A COPY OF THE FEDERAL "<a href="http://www.ed.gov/parents/needs/speced/iepguide/iepguide.pdf" target="_blank" alt="GUIDE TO THE INDIVIDUALIZED EDUCATION PLAN" title="GUIDE TO THE INDIVIDUALIZED EDUCATION PLAN">GUIDE TO THE INDIVIDUALIZED EDUCATION PLAN</a>".</strong></p>
 
-  <table style="border: 1px solid #000000; margin-bottom: 20px;">
-  <tr style="border-bottom: 1px solid #000000;">
-    <th>IEP Action Forms (Click on the links below to download the forms.)</th>
+  <table style="border: 1px solid #009900;">
+  <tr style="border-bottom: 1px solid #009900;">
+    <th align="center">IEP Action Forms (Click on the links below to download the forms.)</th>
   </tr>
   <tr>
-    <td align="center"><a href="/downloads/IEP_action_form-meeting_agenda.pdf" target="_blank" title="IEP Meeting Agenda" alt="IEP Meeting Agenda">IEP Meeting Agenda</a></td>
+    <td align="center"><a href="../../extras/Forms/IEP_action_form-meeting_agenda.pdf" target="_blank" title="IEP Meeting Agenda" alt="IEP Meeting Agenda">IEP Meeting Agenda</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="/downloads/IEP_action_form-goal_sheet.pdf" target="_blank" alt="IEP Goals Form" title="IEP Goals Form">IEP Goals Form</a></td>
+    <td align="center"><a href="../../extras/Forms/IEP_action_form-goal_sheet.pdf" target="_blank" alt="IEP Goals Form" title="IEP Goals Form">IEP Goals Form</a></td>
   </tr>
 </table>
 

@@ -123,7 +123,7 @@ iframe {
   color: green;
 }
 table {
-  margin: 5% 20%;
+  margin: 5% 0 0 20%;
   color: #0000ff;
 }
 .IEP {
@@ -138,9 +138,8 @@ table {
   width: 45%;
 }
 .forms {
-  color: #009900;
-  text-align: center;
-  margin: 5%;
+  color: ##7c00cf;
+  margin: 2% 2%;
 }
 .plans{
   border: 1px solid #990033; 
@@ -150,7 +149,7 @@ table {
 .ramps {
   text-align: center;
   color: green;
-  padding: 5%;
+  padding: 2% 5%;
   border-bottom: 1px solid #990033;
   font-family:Georgia, Palatino, PT Serif;
   text-shadow:1px 1px #9393af;

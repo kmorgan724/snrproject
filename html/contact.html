@@ -1,53 +1,80 @@
 <!DOCTYPE html>
-<html>
-  <body>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Special Needs Resource Project</title>
-      <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
       <link rel="stylesheet" type="text/css" href="../css/main.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
+ <body>
 <header>
   <a href="index.html">
-    <img src="http://www.snrproject.com/images/header/banner.gif" alt="Logo" width="1332" class="banner"></a>
-      <nav id="menu">
-        <ul><a href="index.html"></a>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="../html/Information/info.html">Information</a>
-            <ul>
-              <li><a href="IEP.html">IEP Information</a></li>
-              <li><a href="IDEA.html">Individuals With Disabilities Act</a></li>
-              <li><a href="adult.html">Transistion to Adulthood</a>
-                <ul>
-                  <li><a href="fourteen.html">Age 14 - 16</a></li>
-                  <li><a href="seventeen.html">Age 17 - 18</a></li>
-                  <li><a href="nineteen.html">Age 19 - 22</a></li>
-                  <li><a href="secondary.html">Secondary Education Options</a></li>
-                  <li><a href="housing.html">Future Housing Options</a></li>
-                </ul>
-              </li>
-            </ul> 
-           </li> 
-          <li><a href="resources.html">Resources</a>
-            <ul>
-              <li><a href="forms.html">Forms</a></li>
-              <li><a href="medical.html">Medical Equipment</a></li>
-              <li><a href="home.html">Home Options and Remodeling</a>
-                <ul>
-                  <li><a href="ramps.html">Ramps</a></li>
-                  <li><a href="new.html">New Construction</a></li>
-                </ul>
-              </li>
-            </ul> 
-          </li>
-          <li><a href="faq.html">FAQs</a></li>
-          <li><a href="contact.html" class="selected">Contact Us</a></li>
-        </ul>
-      </nav>
+    <img src="http://www.snrproject.com/images/header/banner.gif" alt="Logo" class="banner" width="100%"></a>
+
+<nav class="navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    </div>
+    <div>
+      <ul class="nav navbar-nav">
+        <li><a href="../index.html">Home</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="Information.info.html">Information <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="Information/info.html">Getting Started</a></li>
+            <li><a href="Information/IEP.html">IEP Information</a></li>
+            <li><a href="Information/IDEA.html">Individuals With Disabilities Act</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="Transition.adult.html">Transition to Adulthood <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+             <li><a href="Transition/adult.html">When to Start</a></li>
+             <li><a href="Transition/fourteen.html">Ages 14 - 16</a></li>
+             <li><a href="Transition/seventeen.html">Ages 17 - 18</a></li>
+             <li><a href="Transition/nineteen.html">Ages 19 - 22</a></li>
+             <li><a href="Transition/housing.html">Future Housing Options</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="Resources/resources.html">Resources <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="Resources/resources.html">Link Policy</a></li>
+            <li><a href="Resources/forms.html">Forms</a></li>
+            <li><a href="Resources/medical.html">Medical Equipment</a></li>
+            <li><a href="Resources/Home Options/ramps.html">Ramps</a></li>
+            <li><a href="Resources/Home Options/new.html">New Construction</a></li>
+          </ul>
+        </li>
+        <li><a href="faq.html">FAQs </a></li>
+        <li class="active"><a href="contact.html">Contact Us</a></li>
+    </div>
+  </div>
+
+  <select> 
+    <option value="../index.html">Home</option>
+    <option value="Infomation/info.html">Getting Started</option> 
+    <option value="Information/IEP.html">IEP Information</option> 
+    <option value="Information/IDEA.html">IDEA</option> 
+    <option value="Transition/adult.html">When to Start</option>
+    <option value="Transition/fourteen.html">Ages 14 - 16</option> 
+    <option value="Transition/seventeen.html">Ages 17- 18</option> 
+    <option value="Transition/nineteen.html">Ages 19 - 22</option> 
+    <option value="Transition/housing.html">Housing Options</option> 
+    <option value="Resources/resources.html">Link Policy</option>
+    <option value="Resources/forms.html">Forms</option> 
+    <option value="Resources/medical.html">Medical Equipment</option>    
+    <option value="Resources/Home Options/ramps.html">Ramps</option> 
+    <option value="Resources/Home Options/new.html">New Construction</option> 
+    <option value="faq.html">FAQs</option> 
+    <option value="contact.html">Contact Us</option> 
+  </select> 
+</nav>
+
 </header>
   <div id="wrapper">
     <section>
+      
 <h1>Contact Us</h1>
 <h2>Feed Back:</h2>
   <p>If you have any comments, suggestions, or ideas on things we could add to improve this site please send them to <a href="mailto: feedback@snrproject.com">FeedBack@SNRProject.com</a>

@@ -55,7 +55,7 @@ body {
 }
 a {
   text-decoration: none;
-  color: #ff6633;
+  color: #7c00cf;
   font-family: PT Serif, Palatino, Georgia;
   font-size: 18px;
   text-align: center;
@@ -99,7 +99,7 @@ iframe {
   margin:0 0 3% 20%;
 }
 .emphasis {
-  color: #ff7519;
+  color: green;
   font-family: Georgia, Palatino, PT Serif;
   font-size: 18px;
   text-shadow:1px 1px #9393af;
@@ -114,13 +114,13 @@ iframe {
   font-family: Palatino, PT Serif, Georgia;
   font-size: 20px;
   text-align: center;
-  color: #ff6633;
+  color: green;
 }
 .Authors{
   font-family: Palatino, PT Serif, Georgia;
   font-size: 17px;
   text-align: center;
-  color: #ff6633;
+  color: green;
 }
 table {
   margin: 5% 20%;
@@ -141,6 +141,26 @@ table {
   color: #009900;
   text-align: center;
   margin: 5%;
+}
+.plans{
+  border: 1px solid #990033; 
+  margin: 5% 0 1.5% 25%;
+  width: 50%;
+}
+.ramps {
+  text-align: center;
+  color: green;
+  padding: 5%;
+  border-bottom: 1px solid #990033;
+  font-family:Georgia, Palatino, PT Serif;
+  text-shadow:1px 1px #9393af;
+  font-size: 23px;
+}
+
+.specs {
+  padding: 15px 0; 
+  border: 1px solid #990033;
+  width: 100%;
 }
 /* Media Queries*/
 

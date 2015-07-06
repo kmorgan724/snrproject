@@ -1,54 +1,80 @@
 <!DOCTYPE html>
-<html>
-  <body>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Special Needs Resource Project</title>
-      <link rel="stylesheet" type="text/css" href="css/normalize.css">
-      <link rel="stylesheet" type="text/css" href="css/main.css">
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="../../css/main.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
+
+<body>
 <header>
   <a href="index.html">
-    <img src=".Resources/Pics/banner.gif" alt="Logo" width="1332" class="banner"></a>
-      <nav id="menu">
-        <ul><a href="index.html"></a>
-          <li><a href="index.html" class="selected">Home</a></li>
-          <li><a href="info.html">Information</a>
-            <ul>
-              <li><a href="IEP.html">IEP Information</a></li>
-              <li><a href="IDEA.html">Individuals With Disabilities Act</a></li>
-              <li><a href="adult.html">Transistion to Adulthood</a>
-                <ul>
-                  <li><a href="fourteen.html">Age 14 - 16</a></li>
-                  <li><a href="seventeen.html">Age 17 - 18</a></li>
-                  <li><a href="nineteen.html">Age 19 - 22</a></li>
-                  <li><a href="secondary.html">Secondary Education Options</a></li>
-                  <li><a href="housing.html">Future Housing Options</a></li>
-                </ul>
-              </li>
-            </ul> 
-           </li> 
-          <li><a href="resources.html">Resources</a>
-            <ul>
-              <li><a href="forms.html">Forms</a></li>
-              <li><a href="medical.html">Medical Equipment</a></li>
-              <li><a href="home.html">Home Options and Remodeling</a>
-                <ul>
-                  <li><a href="ramps.html">Ramps</a></li>
-                  <li><a href="new.html">New Construction</a></li>
-                </ul>
-              </li>
-            </ul> 
-          </li>
-          <li><a href="faq.html">FAQs</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-      </nav>
-</header>
-  <div id="wrapper">
-    <section>
+    <img src="http://www.snrproject.com/images/header/banner.gif" alt="Logo" class="banner" width="100%"></a>
 
+<nav class="navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    </div>
+    <div>
+      <ul class="nav navbar-nav">
+        <li><a href="../../index.html">Home</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="html/Information.info.html">Information <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="../Information/info.html">Getting Started</a></li>
+            <li><a href="../Information/IEP.html">IEP Information</a></li>
+            <li><a href="../Information/IDEA.html">Individuals With Disabilities Act</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="html/Transition.adult.html">Transition to Adulthood <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+             <li><a href="../Transition/adult.html">When to Start</a></li>
+             <li><a href="../Transition/fourteen.html">Ages 14 - 16</a></li>
+             <li><a href="../Transition/seventeen.html">Ages 17 - 18</a></li>
+             <li><a href="../Transition/nineteen.html">Ages 19 - 22</a></li>
+             <li><a href="../Transition/housing.html">Future Housing Options</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="resources.html">Resources <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="resources.html">Resource Link Policy</a></li>
+            <li><a href="forms.html">Forms</a></li>
+            <li class="active"><a href="medical.html">Medical Equipment</a></li>
+            <li><a href="Home Options/ramps.html">Ramps</a></li>
+            <li><a href="Home Options/new.html">New Construction</a></li>
+          </ul>
+        </li>
+        <li><a href="../faq.html">FAQs </a></li>
+        <li><a href="../contact.html">Contact Us</a></li>
+    </div>
+  </div>
+
+  <select> 
+    <option value="../../index.html">Home</option>
+    <option value="../Information/info.html">Getting Started</option>
+    <option value="../Information/IEP.html">IEP Information</option> 
+    <option value="../Information/IDEA.html">IDEA</option>
+    <option value="../Transition/adult.html">When to Start</option> 
+    <option value="../Transition/fourteen.html">Ages 14 - 16</option> 
+    <option value="../Transition/seventeen.html">Ages 17- 18</option> 
+    <option value="../Transition/nineteen.html">Ages 19 - 22</option> 
+    <option value="../Transition/housing.html">Housing Options</option> 
+    <option value="resources.html">Resource Link Policy</option>
+    <option value="forms.html">Forms</option> 
+    <option value="medical.html">Medical Equipment</option>    
+    <option value="Home Options/ramps.html">Ramps</option> 
+    <option value="Home Options/new.html">New Construction</option> 
+    <option value="../faq.html">FAQs</option> 
+    <option value="../contact.html">Contact Us</option> 
+  </select> 
+</nav>
+</header>
+ 
+ <div id="wrapper">
+  <section>
 <h1>Medical Equipment</h1>
 <h2>Wheelchairs and Other Specialized Medical Equipment</h2>
   <p>Every year new inroads are made in technology used to assist the disabled gain much needed independence. Wheelchairs that improve accessibility and reach, overhead lifts with remote controls, household appliances and storage allow greater access to areas in the home. Much of this equipment did not exist ten years ago but is now commonplace in many markets.</p>
@@ -232,7 +258,7 @@
   </ol>
 
 <h5>Wheelchair Safety</h5>
-  <img src="..Resources/Pics/wheelchair2_small.jpeg" class="image">
+  <img src="../../Images/wheelchair2_small.jpeg" class="image">
 
   <p>Wheelchair transportation is serious business. Primary concern is safety of the wheelchair user followed closely by safety and protection of all wheelchair equipment. It doesn't take a high speed impact to cause significant injury to an individual or damage to expensive, high tech (not to mention high dollar) equipment.</p>
 

@@ -17,19 +17,21 @@ nav select {
 }
 .nav.navbar-nav li a{
 	color: #fff;
-	font-family: Arial;
-	text-shadow: 2px 2px #9393af;
+	font-family: Helvetica, sans-serif;
+  font-size: 20px;
+	text-shadow: #00478f 0.1em 0.1em 0.3em; 
 }
 .nav.navbar-nav li a:hover {
 	background-color: #fff;
 	color: #88a5e1;
-	text-shadow:0.5px 0.5px #445270;
+	text-shadow: #00478f 0.08em 0.08em 0.1em;
 	border-radius: 5px;
 }
 .nav.navbar-nav>.active>a,
 .nav.navbar-nav>.active>a:focus {
 	background-color: #00478f;
 	border-radius: 5px;
+  text-shadow:#88a5e1 0.08em 0.08em 0.1em;
 }
 .container-fluid {
 	background-color: #88a5e1;
@@ -38,12 +40,12 @@ nav select {
 .navbar-inverse {
 	background-color: #88a5e1;
 	border-radius: 20px;
-	text-align: center;
 }
 .dropdown-menu {
 	background-color: #88a5e1;
 	border-radius: 20px;
 	color: #fff;
+  text-align: center;
 }
 
 /* body */
@@ -51,76 +53,84 @@ nav select {
 body {
   font-family: Arial, sans-serif, Helvetica;
   font-size: 1.75em;
-
+  background-image: url(https://autisticook.files.wordpress.com/2013/11/designer-fabric-with-colourful-jigsaw-puzzle-pieces-usa-168979-21.jpg);
+  background-size: 100%;
 }
 a {
-  text-decoration: none;
-  color: #7c00cf;
+  text-shadow: #9393af 0.08em 0.08em 0.2em;
+  color: green;
   font-family: PT Serif, Palatino, Georgia;
   font-size: 18px;
-  text-align: center;
   padding:0;
+}
+a:hover {
+  color: #ff7519;
 }
 .image{
   float: left;
-  margin: 0 10px;
+  margin: 1em;
   height: 100%;
+  border-radius: 20px;
 }
 .grad{
   float: right;
   width: 35%;
 }
 #wrapper {
-  max-width: 940px;
-  margin: 0 5% 0 7%;
+  max-width: 1040px;
+  margin: 0 7% 0 10%;
+  padding: 2% 8%;
+  background-color: #fff;
+  border-radius: 12%;
 }
 .IDEA {
   height: 150px;
-  margin: 0 40%;
-  padding: 0 0 2%;
+  margin: 0 40% 4%;
+  box-shadow: 10px 10px 35px 5px;
 }
 h1{
   margin: 0 0 2% 0;
+  padding: 2%;
   font-family: Georgia, Palatino, PT Serif;
   color: #ff7519;
+  text-decoration:;
   text-align: center;
-  text-shadow:1px 1px #9393af;
+  text-shadow: #9393af 0.1em 0.1em 0.2em;
   font-size: 32px;
 }
 h2, h3, h4, h5, h6{
   margin: 2%;
+  padding: 2%;
   font-family:Georgia, Palatino, PT Serif;
-  color: #ff7519;
+  color: #00478f;
   text-align: center;
-  text-shadow:1px 1px #9393af;
+  text-shadow:  #9393af 0.1em 0.1em 0.2em;
   font-size: 28px;
 }
 iframe {
-  margin:0 0 3% 20%;
+  margin:0 0 3% 12%;
+  border-radius: 30px;
 }
 .emphasis {
-  color: green;
+  color: #7c00cf;
   font-family: Georgia, Palatino, PT Serif;
   font-size: 18px;
-  text-shadow:1px 1px #9393af;
+  text-shadow: #9393af 0.05em 0.05em 0.2em;
 }
-.click {
-  margin-left: 380px;
-}
-.click_past{
-    margin-left:300px;
-}
+
 .Titles{
   font-family: Palatino, PT Serif, Georgia;
   font-size: 20px;
   text-align: center;
-  color: green;
+  color: #ff7519;
+  text-shadow:#9393af 0.1em 0.1em 0.2em;
 }
 .Authors{
   font-family: Palatino, PT Serif, Georgia;
   font-size: 17px;
   text-align: center;
-  color: green;
+  color: #ff7519;
+  text-shadow:#9393af 0.08em 0.08em 0.5em;
 }
 table {
   margin: 5% 0 0 20%;
@@ -130,35 +140,37 @@ table {
   height: 200px;
   margin: 0 37%;
   padding: 0 0 2%;
+  border-radius: 20%;
 }
 .notebook{
   float: right;
   margin: 5% 0;
   padding: 5% 2%;
   width: 45%;
+  border-radius: 15%;
 }
 .forms {
   color: ##7c00cf;
   margin: 2% 2%;
 }
 .plans{
-  border: 1px solid #990033; 
+  border: 1px solid red; 
   margin: 5% 0 1.5% 25%;
   width: 50%;
 }
 .ramps {
   text-align: center;
-  color: green;
+  color: #002eb8;
   padding: 2% 5%;
-  border-bottom: 1px solid #990033;
+  border-bottom: 1px solid red;
   font-family:Georgia, Palatino, PT Serif;
-  text-shadow:1px 1px #9393af;
+  text-shadow: #79798c 0.1em 0.1em 0.2em;
   font-size: 23px;
 }
 
 .specs {
   padding: 15px 0; 
-  border: 1px solid #990033;
+  border: 1px solid red;
   width: 100%;
 }
 /* Media Queries*/
@@ -171,11 +183,18 @@ table {
 /* site footer */
 
 footer {
-  margin: 10px;
-    padding:20px;
-  background-color: #fff;
-  color: #999;
+  margin: 2% 25%;
+  padding:3%;
+  color: #fff;
+  font-size: 0.7em;
+  text-shadow:black 0.1em 0.1em 0.5em;
   text-align: center;
+  background: rgba(0, 37, 147, 0.7);
+  border-radius: 40%;
 }
+
+
+/* carousel */
+
 
 

@@ -1,16 +1,16 @@
 /* header section */
 header {
-  margin: 0 2%;
-  padding: 0 0 2% 0;
+  margin: 5% 0 0 0;
+  padding: 0;
 }
 .banner {
-  margin: 1px;
+  margin: 2% 0;
   border-radius: 20px;
  }
 
 /* navigation */
 nav {
-	border-radius: 20px
+	border-radius: 20px;
 }
 nav select {
 	display: none;
@@ -18,7 +18,6 @@ nav select {
 .nav.navbar-nav li a{
 	color: #fff;
 	font-family: Helvetica, sans-serif;
-  font-size: 20px;
 	text-shadow: #00478f 0.1em 0.1em 0.3em; 
 }
 .nav.navbar-nav li a:hover {
@@ -37,6 +36,10 @@ nav select {
 	background-color: #88a5e1;
 	border-radius: 20px;
 }
+.navbar-brand {
+  font-family: Helvetica, sans-serif;
+  text-shadow: black 0.1em 0.1em 0.5em;
+}
 .navbar-inverse {
 	background-color: #88a5e1;
 	border-radius: 20px;
@@ -52,69 +55,117 @@ nav select {
 
 body {
   font-family: Arial, sans-serif, Helvetica;
-  font-size: 1.75em;
+  font-size: 1.5em;
   background-image: url(https://autisticook.files.wordpress.com/2013/11/designer-fabric-with-colourful-jigsaw-puzzle-pieces-usa-168979-21.jpg);
-  background-size: 100%;
+  background-size: 80%;
 }
 a {
   text-shadow: #9393af 0.08em 0.08em 0.2em;
   color: green;
   font-family: PT Serif, Palatino, Georgia;
-  font-size: 18px;
+  font-size: 1.2em;
   padding:0;
 }
 a:hover {
   color: #ff7519;
 }
-.image{
+.compass{
   float: left;
   margin: 1em;
   height: 100%;
   border-radius: 20px;
+  box-shadow: 10px 10px 30px 5px;
+}
+.image{
+  display: block;
+  margin:4% auto 3%;
+  border-radius: 20%;
+  max-width: 150px;
+  box-shadow: 10px 10px 30px 5px;
 }
 .grad{
   float: right;
   width: 35%;
+  box-shadow: 10px 10px 30px 5px;
+  margin: 3%;
+  border-radius: 20%;
 }
 #wrapper {
-  max-width: 1040px;
-  margin: 0 7% 0 10%;
-  padding: 2% 8%;
-  background-color: #fff;
-  border-radius: 12%;
+  background: #EDE5DD;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  margin: 2px auto 0;
+  max-width: 1140px;
+  min-height: 300px;
+  padding: 24px;
+  position: relative;
+  width: 80%;
+}
+#wrapper:before, #wrapper:after {
+  content: "";
+  height: 98%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+#wrapper:before {
+  background: #EDE5DD;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  left: -5px;
+  top: 4px;
+  transform: rotate(-2.5deg);
+}
+#wrapper:after {
+  background: #EDE5DD;
+  box-shadow: 0 0 3px rgba(0,0,0,0.2);
+  right: -3px;
+  top: 1px;
+  transform: rotate(1.4deg);
+}
+
+.newsletter {
+  margin: 2%;
+  padding: 2%;
 }
 .IDEA {
-  height: 150px;
-  margin: 0 40% 4%;
-  box-shadow: 10px 10px 35px 5px;
+  display: block;
+  max-width: 30%;
+  margin: 0 auto 5% auto;
+  border-radius: 10%;
+  box-shadow: 10px 10px 30px 5px;
 }
 h1{
-  margin: 0 0 2% 0;
+  margin: 2% 0;
   padding: 2%;
   font-family: Georgia, Palatino, PT Serif;
   color: #ff7519;
   text-decoration:;
   text-align: center;
   text-shadow: #9393af 0.1em 0.1em 0.2em;
-  font-size: 32px;
+  font-size: 43px;
 }
 h2, h3, h4, h5, h6{
-  margin: 2%;
+  margin:2%;
   padding: 2%;
   font-family:Georgia, Palatino, PT Serif;
   color: #00478f;
   text-align: center;
-  text-shadow:  #9393af 0.1em 0.1em 0.2em;
-  font-size: 28px;
+  text-shadow:  #9393af 0.1em 0.1em 0.35em;
+  font-size: 2em;
 }
 iframe {
-  margin:0 0 3% 12%;
-  border-radius: 30px;
+  border-radius: 20px;
+  display: block;
+  margin: auto;
+  padding: 3%;
+  max-width: 400px;
+  min-width: 300px;
+
 }
+
 .emphasis {
   color: #7c00cf;
   font-family: Georgia, Palatino, PT Serif;
-  font-size: 18px;
+  font-size: 1em;
   text-shadow: #9393af 0.05em 0.05em 0.2em;
 }
 
@@ -122,8 +173,9 @@ iframe {
   font-family: Palatino, PT Serif, Georgia;
   font-size: 20px;
   text-align: center;
-  color: #ff7519;
-  text-shadow:#9393af 0.1em 0.1em 0.2em;
+  color: #88a5e1;
+  text-shadow: #00478f 0.5em, 0.5em;
+
 }
 .Authors{
   font-family: Palatino, PT Serif, Georgia;
@@ -132,46 +184,68 @@ iframe {
   color: #ff7519;
   text-shadow:#9393af 0.08em 0.08em 0.5em;
 }
-table {
-  margin: 5% 0 0 20%;
-  color: #0000ff;
-}
 .IEP {
-  height: 200px;
-  margin: 0 37%;
-  padding: 0 0 2%;
+  max-width: 40%;
+  display: block;
+  margin: 0 auto 5% auto;
+  padding: auto;
   border-radius: 20%;
+  box-shadow: 10px 10px 30px 5px;
 }
 .notebook{
-  float: right;
-  margin: 5% 0;
-  padding: 5% 2%;
-  width: 45%;
+  display: block;
+  margin: 15% auto;
+  padding: auto;
+  width: 60%;
   border-radius: 15%;
 }
 .forms {
-  color: ##7c00cf;
-  margin: 2% 2%;
+  color: #ff7519;
+  padding: 2px;
+  text-shadow: #00478f 3px 3px 0.1em,
+  #00478f -2px -2px 0.2em,
+  #00478f 2px -2px 0.2em,
+  #00478f -2px 2px 0.2em,
+  #00478f 0px 1px 0.2em,
+  #00478f 1px 0px 0.2em,
+  #00478f 0px -1px 0.2em,
+  #00478f -1px 0px 0.2em;
 }
 .plans{
   border: 1px solid red; 
-  margin: 5% 0 1.5% 25%;
+  margin:auto;
   width: 50%;
+  padding: 1%, 2%;
+  color: #00478f;
+  text-align: center;
+  font-family: Georgia, Palatino, PT Serif;
 }
 .ramps {
   text-align: center;
   color: #002eb8;
-  padding: 2% 5%;
   border-bottom: 1px solid red;
   font-family:Georgia, Palatino, PT Serif;
   text-shadow: #79798c 0.1em 0.1em 0.2em;
-  font-size: 23px;
+  font-size: 20px;
 }
 
+#myCarousel {
+  background: transparent;
+}
+.carousel-caption {
+  top: 0;
+  bottom: auto;
+  color: rgba(0,71,143,0.5);
+}
+.carousel-inner img {
+  margin: auto;
+  width: 30%;
+}
 .specs {
   padding: 15px 0; 
   border: 1px solid red;
-  width: 100%;
+  max-width: 120px;
+
 }
 /* Media Queries*/
 
@@ -183,18 +257,38 @@ table {
 /* site footer */
 
 footer {
-  margin: 2% 25%;
-  padding:3%;
+  margin: 5% 15%;
+  padding: 2%;
   color: #fff;
-  font-size: 0.7em;
+  font-size: 0.9em;
   text-shadow:black 0.1em 0.1em 0.5em;
   text-align: center;
-  background: rgba(0, 37, 147, 0.7);
-  border-radius: 40%;
+  background: rgba(0, 37, 147, 0.6);
+  border-radius: 50%;
 }
 
 
 /* carousel */
+.carousel-indicators {
+  bottom:0;
+}
+
+.carousel-indicators .active {
+  background-color: #88a5e1;
+}
+
+.carousel-indicators li {
+  border-color: #88a5e1;
+}
+
+.icon-next {
+  color: #00478f;
+}
+.icon-prev {
+  color: #00478f;
+}
+
+
 
 
 

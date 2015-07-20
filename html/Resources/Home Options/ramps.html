@@ -7,28 +7,33 @@
       <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
       <link rel="stylesheet" type="text/css" href="../../../css/main.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="../../../bootstrap.min.js"></script>
 </head>
  <body>
 <header>
   <a href="index.html">
     <img src="http://www.snrproject.com/images/header/banner.gif" alt="Logo" class="banner" width="100%"></a>
 
-<nav class="navbar-inverse">
+<div class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
-    <div class="navbar-header">
-    </div>
-    <div>
+
+   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+   </button>  
+  
+    <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         <li><a href="../../../index.html">Home</a></li>
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="../../Information.info.html">Information <span class="caret"></span></a>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="../../../Information/info.html">Information <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="../../Information/info.html">Getting Started</a></li>
             <li><a href="../../Information/IEP.html">IEP Information</a></li>
             <li><a href="../../Information/IDEA.html">Individuals With Disabilities Act</a></li>
           </ul>
         </li>
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="../../Transition.adult.html">Transition to Adulthood <span class="caret"></span></a>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="../../Transition/adult.html">Transition to Adulthood <span class="caret"></span></a>
           <ul class="dropdown-menu">
              <li><a href="../../Transition/adult.html">When to Start</a></li>
              <li><a href="../../Transition/fourteen.html">Ages 14 - 16</a></li>
@@ -37,10 +42,11 @@
              <li><a href="../../Transition/housing.html">Future Housing Options</a></li>
           </ul>
         </li>
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="resources.html">Resources <span class="caret"></span></a>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="../resources.html">Resources <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="../resources.html">Resource Link Policy</a></li>
-            <li><a href="../forms.html">Forms</a></li>
+            <li><a href="../resources.html">Link Policy</a></li>
+            <li><a href="../iep.html">IEP Forms</a></li>
+            <li><a href="../Notebook.html">Notebook Forms</a></li>
             <li><a href="../medical.html">Medical Equipment</a></li>
             <li class="active"><a href="ramps.html">Ramps</a></li>
             <li><a href="new.html">New Construction</a></li>
@@ -49,27 +55,9 @@
         <li><a href="../../faq.html">FAQs </a></li>
         <li><a href="../../contact.html">Contact Us</a></li>
     </div>
-  </div>
+  </div> 
+</div>
 
-  <select> 
-    <option value="../../../index.html">Home</option>
-    <option value="../../Information/info.html">Getting Started</option>
-    <option value="../../Information/IEP.html">IEP Information</option> 
-    <option value="../../Information/IDEA.html">IDEA</option>
-    <option value="../../Transition/adult.html">When to Start</option> 
-    <option value="../../Transition/fourteen.html">Ages 14 - 16</option> 
-    <option value="../../Transition/seventeen.html">Ages 17- 18</option> 
-    <option value="../../Transition/nineteen.html">Ages 19 - 22</option> 
-    <option value="../../Transition/housing.html">Housing Options</option> 
-    <option value="../resources.html">Resource Link Policy</option>
-    <option value="../forms.html">Forms</option> 
-    <option value="../medical.html">Medical Equipment</option>    
-    <option value="ramps.html">Ramps</option> 
-    <option value="new.html">New Construction</option> 
-    <option value="../../faq.html">FAQs</option> 
-    <option value="../../contact.html">Contact Us</option> 
-  </select> 
-</nav>
 </header>
  
  <div id="wrapper">
@@ -89,11 +77,45 @@
 
   <p>Here are a few points to consider as you begin your ramp project.</p>
 
+
+
+  <table class="plans">
+        <tbody>
+            <tr>
+                <th colspan="2" class="ramps">Ramp Sample</th>
+            </tr>
+            <tr>
+                
+                <th><a href="../../../Images/ramp_before.jpg"><img src="../../../Images/ramp_before_small.jpeg" alt="Before picture of ramp" title="Before ramp is installed"class="specs"></a></th>
+                
+                <th><a href="../../../Images/ramp_after.jpg"><img src="../../../Images/ramp_after_small.jpeg" alt="After picture of ramp" title="After ramp was installed" class="specs"></a></th>
+            </tr>
+        </tbody>
+    </table>
+  
+
+    <table class="plans">
+        <tbody>
+            <tr>
+                <th colspan="3" class="ramps">Ramp Plans</th>
+            </tr>
+            <tr>
+                <th><a href="../../../Images/ramp2.jpg"><img src="../../../Images/ramp2_small.jpeg" alt="Ramp Design 2" title="Ramp Design 2" class="specs" width="100%"></a></th>
+                
+                <th><a href="../../../Images/ramp3.jpg"><img src="../../../Images/ramp3_small.jpeg" alt="Ramp Design 3" title="Ramp Design 3" class="specs" width="100%"></a></th>
+                
+                <th><a href="../../../Images/ramp4.jpg"><img src="../../../Images/ramp4_small.jpeg" alt="Ramp Design 4" title="Ramp Design 4" class="specs" width="100%"></a></th>
+            </tr>
+        </tbody>
+    </table>
+   
+  
+
 <h2>Common Errors in Wheelchair Accessible Construction</h2>
   <ul>
     <li><strong class='emphasis'>Landing areas are too small.</strong> Wheelchair users must be able to stay on a flat, level surface and still open a door without rolling back into slopped sections of the ramp. This prevents roll offs. Adequate maneuvering clearance must be provided at all doors both in front and to the side.</li>
     <li>Landing areas where ramps change directions, such as 90' turns or switch backs, are too small. Wheelchair users are unable to go up or down the ramp because they are unable to make the turn on a level surface. This makes the ramp unusable. Again, the minimum landing size should be 60 inches by 60 inches.</li>
-    <li><strong class='emphasis'>Improper door handles.</strong> Door handles, pulls, latches, locks, and other operating devices on doors at the top of a ramp (considered by the ADA as an "Accessible door" see ADA 4.13.9) must have an easy to grasp shape. It should be graspable with only one hand and not require tight grasping, pinching or twisting of the wrist to operate. Optimal hardware consists of lever-operated mechanisms, push type and U-shaped handles.<strong> If using a sliding door operating hardware MUST be exposed and useable on BOTH sides of the door.</strong></li>
+    <li><strong class='emphasis'>Improper door handles.</strong> Door handles, pulls, latches, locks, and other operating devices on doors at the top of a ramp (considered by the ADA as an "Accessible door" see ADA 4.13.9) must have an easy to grasp shape. It should be graspable with only one hand and not require tight grasping, pinching or twisting of the wrist to operate. Optimal hardware consists of lever-operated mechanisms, push type and U-shaped handles.<strong class='emphasis'> If using a sliding door operating hardware MUST be exposed and useable on BOTH sides of the door.</strong></li>
     <li><strong class='emphasis'>Improper slope.</strong> ADA requires ramp slopes be 1:12. Twelve inches of horizontal slope for every inch of vertical rise. Example: If the level from the doorsill to the ground is 15 inches the ramp MUST be a minimum of 15 feet. When a walkway or other pedestrian surface has a slope of greater than 1:20, is more difficult to maintain control of a wheelchair. Wheelchair users may not be able to climb up the slope without having to use railings. Individuals using crutches, walkers or canes may loose their balance and falls may result.</li>
     <li><strong class='emphasis'>Improper, or missing, railings.</strong> It is absolutely imperative that ramps be outfitted with proper railings or edge protection. Edger protection may be used for smaller, broader ramps, while those rising at steeper angles and longer distances will require railings. Lack of railings or edge protection can result in injury if a wheelchair user rolls off the side of the route. Individuals using walkers, canes and crutches may likewise suffer injuries from falls where railings are not present. Railings must be periodically checked to ensure they are intact and in good repair.</li>
     <li><strong class='emphasis'>Ramp is too narrow.</strong> Most ramps should be no narrower than 36 inches. Allow space for manual wheelchair users to maneuver their hands on the OUTSIDE edges of their wheels.</li>
@@ -102,40 +124,8 @@
   
   <p>The following graphics are samples of a ramp proposal that was submitted as part of a grant application. Note the slope, safety features and overall design of the ramp. This project was approved for a state funded grant and built for the family shortly thereafter.</p>  
 
-<table class="plans">
-        <tbody>
-            <tr>
-                <th colspan="2" class="ramps">Ramp Sample</th>
-            </tr>
-            <tr style="margin-bottom: 10px;">
-                
-                <th><a href="../../../Images/ramp_before.jpg"><img src="../../../Images/ramp_before_small.jpeg" alt="Before picture of ramp" title="Before ramp is installed"class="specs"></a></th>
-                
-                <th><a href="../../../Images/ramp_after.jpg"><img src="../../../Images/ramp_after_small.jpeg" alt="After picture of ramp" title="After ramp was installed" class="specs"></a></th>
-            </tr>
-        </tbody>
-    </table>
-    <table class="plans">
-        <tbody>
-            <tr>
-                <th colspan="3" class="ramps">Ramp Plans</th>
-            </tr>
-            <tr>
-                <th><a href="../../../Images/ramp2.jpg"><img src="../../../Images/ramp2_small.jpeg" alt="Ramp Design 2" title="Ramp Design 2" class="specs"></a></th>
-                
-                <th><a href="../../../Images/ramp3.jpg"><img src="../../../Images/ramp3_small.jpeg" alt="Ramp Design 3" title="Ramp Design 3" class="specs"></a></th>
-                
-                <th><a href="../../../Images/ramp4.jpg"><img src="../../../Images/ramp4_small.jpeg" alt="Ramp Design 4" title="Ramp Design 4" class="specs"></a></th>
-            </tr>
-        </tbody>
-    </table>
-    <p>&nbsp;</p>
-</ul>
-</div>
-    </tr>
-  </table>
-  
    </section>
+  </div>
   </div>
     <footer>
       <p> June 2004-June 2015 Special Needs Resouce Project<br>Technical Support provided by Katie Morgan</p>
